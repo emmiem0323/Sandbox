@@ -1,0 +1,36 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Styling for the heading */
+h1 {
+    color: #0056b3;
+    text-align: center;
+}
+
+/* Styling for paragraphs */
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Styling for the button */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Make it a block element to center it */
+    margin: 20px auto; /* Center the button horizontally */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
